@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Libre Franklin'
+}
+.wrapper {
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot-blue {
+  color: hsl(223, 87%, 64%);
+}
+.light-launch {
+  color: hsl(0, 0%, 50%);
+}
+.input-email, .notify-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.notify-button {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border-width: 0;
+}
+
+.social-media-item {
+  border: 0.5px solid hsl(0, 0%, 50%);
+  border-radius: 50%;
+  padding: 5px;
+  color: hsl(223, 87%, 63%);
+}
+
+.footer-note {
+  font-size: smaller;
+  color: hsl(0, 0%,65%);
+}
